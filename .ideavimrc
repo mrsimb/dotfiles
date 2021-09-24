@@ -1,0 +1,31 @@
+let mapleader = " "
+
+" Enable ideavim plugins
+set surround
+set commentary
+set multiple-cursors
+set highlightedyank
+
+" Enable IdeaJoin
+set ideajoin
+
+set incsearch
+set wrapscan
+set ignorecase
+set smartcase
+set clipboard+=unnamedplus
+
+inoremap jk <esc>
+inoremap kj <esc>
+nnoremap U <c-r>
+
+nnoremap <leader>y "0y
+vnoremap <leader>y "0y
+nnoremap <leader>p "0p
+vnoremap <leader>p "0p
+
+nmap Y y$
+
+
+" Y = y$
+" add gv after yank?
